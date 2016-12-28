@@ -2,15 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3dbc988-aca7-40d3-9711-5f0df9f06c68" name="Default" comment="Removed the bug with the wrong item being dragged, removed the try/catch block, random item filling moved to the Inventory class">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityLockfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-02b4c0ae8a1674d0f82d3e3219adcf16" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-086ff8044188744eeac9d1c8c9417d89" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-09206257445204231beb462b921577d3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-2680faba3dfb04b2580e2a47160a91c4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-2a12a2853d6ad4cc982a908a7cdd6d10" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-32367995d68904237b3c453c9d24b86d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-34c9750e0edbc47dd849e42c5c64baad" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-3a26be676e034491c87eadc93d3d09c3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-3c317c5804a81478db70f7ae7f957fc4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-507e41ca90ddd4e528e64c010865fa65" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-66c18012f016e47108ebec388512e16d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-66ed51574b24c491fbcf8dcdc94c3a7e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-6e1d88446342c4158b71163a5ce10ca5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-6e920450160be4beaa13b4e96e5647e3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-7b048d5a5d885402a9379b8866177399" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-808fb63c0de674fd3aa9e73193211740" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-9034e10553daf4c34ae8d63881b9c709" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-b5aa5a86772df4ef3ae95b87c6347bdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-c3a6327c5b4f74d748438bed266ac9ab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-ca3b4b6cd855042d982ea7416c65b960" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-cfee8626239524c10be7d1c2470e789a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-d8357f73f04d6430498956032715ab28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-dcacdc1d7340842abbf2035152e2779d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-e26f94b95f4864626bdc35ae23e29ca3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/UnityTempFile-f2d07f45860e14ed9805ad6d324af99d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/__EditModeScene" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/30/30e1bdfdaf28941adbfe59e84211a513" afterPath="$PROJECT_DIR$/Library/metadata/30/30e1bdfdaf28941adbfe59e84211a513" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/BattleScene.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/BattleScene.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Temp/__EditModeScene" afterPath="$PROJECT_DIR$/Temp/__EditModeScene" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/DragSourceHandler.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/DragSourceHandler.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.consulo/workspace.xml" afterPath="$PROJECT_DIR$/.consulo/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/expandedItems" afterPath="$PROJECT_DIR$/Library/expandedItems" />
     </list>
     <ignored path=".consulo/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.consulo/" />
@@ -32,6 +56,7 @@
     <file path="/DragSourceHandler.cs" changelist="f3dbc988-aca7-40d3-9711-5f0df9f06c68" time="1482960432186" ignored="false" />
     <file path="/Dummy.txt" changelist="f3dbc988-aca7-40d3-9711-5f0df9f06c68" time="1482959067945" ignored="false" />
     <file path="/a.dummy" changelist="f3dbc988-aca7-40d3-9711-5f0df9f06c68" time="1482958358675" ignored="false" />
+    <file path="$PROJECT_DIR$/.consulo/workspace.xml" changelist="f3dbc988-aca7-40d3-9711-5f0df9f06c68" time="1482960519098" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +81,8 @@
       <file leaf-file-name="DragSourceHandler.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DragSourceHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+            <state relative-caret-position="238">
+              <caret line="32" column="32" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -295,16 +320,16 @@
       <workItem from="1482522797947" duration="1102000" />
       <workItem from="1482736071496" duration="60000" />
       <workItem from="1482736177227" duration="417000" />
-      <workItem from="1482953553502" duration="4338000" />
+      <workItem from="1482953553502" duration="4424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27614000" />
+    <option name="totallyTimeSpent" value="27700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18055555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -546,8 +571,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DragSourceHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        <state relative-caret-position="238">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

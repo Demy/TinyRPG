@@ -28,10 +28,13 @@ public class DragSourceHandler : MonoBehaviour, IBeginDragHandler, IDragHandler,
     private void CreateItem()
     {
         itemBeingDragged = GameObject.Find("Inventory").GetComponent<Inventory>().CreateDraggingSlot();
+        // TODO: fit to the prefab size, find where to get these numbers from
+        itemBeingDragged.GetComponent<RectTransform>().sizeDelta = new Vector2(50, 50);
     }
 
     public void OnDrag(PointerEventData eventData)
     {
+        // TODO: align to the mouse
         itemBeingDragged.transform.position = Input.mousePosition - mousePositionOffset;
     }
 

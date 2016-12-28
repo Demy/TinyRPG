@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
+[RequireComponent (typeof (Slot))]
 public class DragSourceHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     public static GameObject itemBeingDragged;
@@ -13,7 +14,7 @@ public class DragSourceHandler : MonoBehaviour, IBeginDragHandler, IDragHandler,
         source = gameObject;
         Slot sourceSlot = gameObject.GetComponent<Slot>();
 
-        if (itemBeingDragged == null || sourceSlot == null) return;
+        if (itemBeingDragged == null) CreateItem();
 
         Slot targetSlot = itemBeingDragged.GetComponent<Slot>();
         targetSlot.SetItem(sourceSlot.GetItem());
@@ -22,6 +23,11 @@ public class DragSourceHandler : MonoBehaviour, IBeginDragHandler, IDragHandler,
 
         startPosition = transform.position;
         mousePositionOffset = startPosition - Input.mousePosition;
+    }
+
+    private void CreateItem()
+    {
+        itemBeingDragged = GameObject.Find("Inventory").GetComponent<Inventory>().CreateDraggingSlot();
     }
 
     public void OnDrag(PointerEventData eventData)

@@ -13,34 +13,7 @@ public class Slot : MonoBehaviour, IDropHandler
         icon = transform.Find("Image").gameObject.GetComponent<Image>();
         count = gameObject.GetComponentInChildren<Text>();
 
-        SetItem(null);
-
-        InventoryItem testItem = null;
-        float rand = Random.value;
-        if (rand < 0.2)
-        {
-            testItem = new InventoryItem();
-            testItem.name = "Small Sword";
-            testItem.count = -1;
-            testItem.icon = "smallSword";
-            SetItem(testItem);
-        }
-        else if (rand < 0.5)
-        {
-            testItem = new InventoryItem();
-            testItem.name = "Blueberry";
-            testItem.count = (int)(Random.Range(1f, 99f));
-            testItem.icon = "blueberry";
-            SetItem(testItem);
-        }
-        else if (rand < 0.8)
-        {
-            testItem = new InventoryItem();
-            testItem.name = "Cherry";
-            testItem.count = (int)(Random.Range(1f, 99f));
-            testItem.icon = "cherry";
-        }
-        SetItem(testItem);
+        DrawItem();
     }
 
     void Awake()
@@ -79,19 +52,13 @@ public class Slot : MonoBehaviour, IDropHandler
     private void DrawItem()
     {
         bool hasItem = item != null;
-        try
+        icon.enabled = hasItem;
+        count.enabled = hasItem;
+        if (hasItem)
         {
-            icon.enabled = hasItem;
-            count.enabled = hasItem;
-            if (hasItem)
-            {
-                var sprite = Resources.Load<Sprite>(item.icon);
-                if (sprite != null) icon.sprite = sprite;
-                count.text = item.count > 1 ? item.count.ToString() : "";
-            }
-        }
-        catch  {
-            Debug.Log(gameObject.name);
+            var sprite = Resources.Load<Sprite>(item.icon);
+            if (sprite != null) icon.sprite = sprite;
+            count.text = item.count > 1 ? item.count.ToString() : "";
         }
     }
 

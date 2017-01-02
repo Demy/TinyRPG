@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -10,11 +10,11 @@ public class HitPoints : MonoBehaviour
     private int value;
     private uint healingFactor;
 
-	void Start ()
+    void Start ()
     {
-	    value = MAX;
+        value = MAX;
         healingFactor = HEALING;
-	}
+    }
 
     private void Update()
     {

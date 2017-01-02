@@ -1,16 +1,6 @@
-﻿using UnityEngine;
-using System.Collections;
+using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
-    public GameObject target;
 
-	void Start ()
-    {
-	
-	}
-
-	void Update ()
-    {
-	}
 }

@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
@@ -9,10 +9,10 @@ public class Inventory : MonoBehaviour
     public GameObject slotsContainer;
     public int slotCount;
 
-	void Start ()
+    void Start ()
     {
         FillWithSlots(slotsContainer);
-	}
+    }
 
     public GameObject CreateDraggingSlot()
     {

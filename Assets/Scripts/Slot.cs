@@ -28,8 +28,8 @@ public class Slot : MonoBehaviour, IDropHandler
         InventoryItem getItem = DragSourceHandler.itemBeingDragged.GetComponent<Slot>().GetItem();
 
         if (giveItem != null && getItem != null &&
-            giveItem.name == getItem.name &&
-            giveItem.count > 0 && getItem.count > 0)
+        giveItem.name == getItem.name &&
+        giveItem.count > 0 && getItem.count > 0)
         {
             item.count = getItem.count + giveItem.count;
             DrawItem();
